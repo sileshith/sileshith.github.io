@@ -1,0 +1,49 @@
+baseURL = "https://sileshith.github.io/"
+languageCode = "en-us"
+title = "Sileshi Hirpa"
+theme = "PaperMod"
+paginate = 5
+
+[params]
+  author = "Sileshi Hirpa"
+  description = "Data Science & SciML Researcher | GNN Robustness | ETL Pipelines | Grid Reliability"
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+  defaultTheme = "dark"
+
+  [params.homeInfoParams]
+    Title = "Sileshi Hirpa"
+    Content = "Data Science & SciML Researcher · M.S. Mathematical Analysis · GNN Robustness Research at ASU · I find structure under complexity, and clarity under uncertainty."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/sileshith"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/sileshi-hirpa"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:hirpast@gmail.com"
+
+[params.profileMode]
+  enabled = false
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+  [[menu.main]]
+    name = "Experience"
+    url = "/experience/"
+    weight = 3
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
